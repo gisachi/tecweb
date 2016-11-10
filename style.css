@@ -1,7 +1,7 @@
 *{
 	padding:0em;	
 }
-html, body {
+html, body{
 	max-width:1024px;
 	font-family: Veranda, Helvetica, sans-serif;
 	font-size: 0.9em;
@@ -14,7 +14,6 @@ a:hover{
 	background: red;
 	font-variant: small-caps;
 }
-
 #headeruno{
 	text-align: center;
 	padding: 1em;
@@ -37,8 +36,7 @@ a:hover{
 	border-top:1px solid #ddd;
 	border-bottom:1px solid #ddd;
 	font-weight: bold;
-	}
-	
+}	
 #menu{
 	font-size: 1.5em;
     float:left;
@@ -53,7 +51,7 @@ a:hover{
 	padding-top:0.5em;
 	padding-bottom:0.5em;
 }
-#content {
+#content{
 	display:block;
 	text-align: left;
     	margin-left: 20%;
@@ -72,15 +70,14 @@ a:hover{
 .fotocont{
 	display:flex;
 }
-.foto figure{
+.fotocont figure{
 	display: inline-block;
 	width:18em;
-    	margin: 1em;
+    	margin: 0.5em;
 }
 figcaption{
 	padding-bottom: 0.5em;
 }
-
 .fotobox img{
 	width:100%;
 	height:auto;
@@ -88,7 +85,7 @@ figcaption{
 .caps{
 	font-variant:small-caps;
 }
-article {
+article{
 	margin:2em;
 	border-bottom:1px solid #ddd;
 	border-left:1px solid #ddd;
@@ -105,7 +102,7 @@ article header h1{
 		font-size:1.4em;
 }
 article  h1:before{
-		content:" - ";
+	content:" - ";
 }
 article p{
 	margin:0.4em;
@@ -113,7 +110,7 @@ article p{
 #lettera{
 	width:100%;
 }
-#footer {
+#footer{
 	padding:0.5em 0.5em 0 1em;
 	border-top:1px solid #ddd;
 	clear:both;
