@@ -56,7 +56,7 @@ a:hover{
 #content {
 	display:block;
 	text-align: left;
-    margin-left: 20%;
+    	margin-left: 20%;
 	width:70%;
 	font-size:1em;
 	padding-left:3.5em;
@@ -75,14 +75,13 @@ a:hover{
 .foto figure{
 	display: inline-block;
 	width:18em;
-    margin: 1em;
+    	margin: 1em;
 }
 figcaption{
 	padding-bottom: 0.5em;
 }
 
 .fotobox img{
-	align: top;
 	width:100%;
 	height:auto;
 }
@@ -128,9 +127,4 @@ article p{
 }
 #imgValiCode{
 	float:left;
-}
-footer img{
-	margin-left:1em;
-	margin-right:1em;
-	margin-bottom:0.8em;
 }
