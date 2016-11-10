@@ -1,0 +1,36 @@
+@media only screen and (max-width: 550px){
+
+  #logo{
+    float: none;
+ }
+
+  #menu{
+    float:none;
+    width: auto;
+    text-align: center;
+ }
+
+  #menu ul{
+    padding: 0;
+ }
+
+  #menu ul li{
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+ }
+
+  #content{
+    width: auto;
+    margin: 0;
+    padding: 2em 1em 2em 1em;
+    border: none;
+  }
+
+  .foto figure{
+  	width: 95%;	
+	max-height:none;
+  }
+  .foto div{
+	display: block;
+  }
+}
