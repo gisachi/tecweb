@@ -1,7 +1,7 @@
 @media only screen and (max-width: 550px){
 
   #logo{
-    float: none;
+    float: left;
  }
 
   #menu{
@@ -15,22 +15,24 @@
  }
 
   #menu ul li{
-    padding: 1em;
+    padding: 0.8em;
     border-bottom: 1px solid #ddd;
  }
 
   #content{
     width: auto;
     margin: 0;
-    padding: 2em 1em 2em 1em;
+    padding: 1em 0.5em 1em 0.5em;
     border: none;
   }
-
+  .foto h1{
+	margin: 0.2em;
+  }
   .foto figure{
   	width: 95%;	
 	max-height:none;
   }
-  .foto div{
+  .fotocont{
 	display: block;
   }
 }
